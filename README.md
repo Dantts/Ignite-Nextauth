@@ -1,34 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ignite-Nextauth
+**Ignite-Nextauth** created with <a href='https://nextjs.org/' target="_blank">NextJs</a>
 
-## Getting Started
+This project is Rocketseat Ignite fourth module for learning Nextjs. The purpose of this module is learning about authentication wiht token and refresh token generation, users permissions and functionality of the Nextjs.
 
-First, run the development server:
+Basically this project is based in login system and users permissions, where have a simple login page and other pages to access when have a user login.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+# Run project
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Basically to run the project, you just need to use the command `npm install` or `yarn to install` to install the project dependencies.
+With the dependencies installed, you just need to run `npm run dev` or `yarn dev` to start the project in the development environment.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+**To install the project dependencies is necessary to know which package manager is installed on your computer.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+**To run this project, it is necessary to run the [authentication backend](https://github.com/Rocketseat-education/ignite-reactjs-auth-backend) and the process for this is the same as shown above
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+# Packages
+Dependencies used in the _project_
 
-## Learn More
+### Axios
+[Axios](https://www.npmjs.com/package/axios) is a Promise based HTTP client for making requests.
 
-To learn more about Next.js, take a look at the following resources:
+### Jwt-decode
+[Jwt-decode](https://www.npmjs.com/package/jwt-decode) is a small browser library that helps decoding JWTs token which are Base64Url encoded.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Presentation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![GifIgniteAuth](https://user-images.githubusercontent.com/80539719/188335277-cfede9f5-e8cd-4a73-ac98-371b7772049b.gif)
