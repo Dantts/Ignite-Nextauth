@@ -1,7 +1,7 @@
 # Ignite-Nextauth
 **Ignite-Nextauth** created with <a href='https://nextjs.org/' target="_blank">NextJs</a>
 
-This project is Rocketseat Ignite fourth module for learning Nextjs. The purpose of this module is learning about authentication wiht token and refresh token generation, users permissions and functionality of the Nextjs.
+This project is Rocketseat Ignite fourth module for learning Nextjs. The purpose of this module is learning about authentication with token and refresh token generation, users permissions and functionality of the Nextjs.
 
 Basically this project is based in login system and users permissions, where have a simple login page and other pages to access when have a user login.
 
